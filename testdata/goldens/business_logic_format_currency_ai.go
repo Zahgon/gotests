@@ -1,5 +1,7 @@
 package testdata
+
 import "testing"
+
 func TestFormatCurrency(t *testing.T) {
 	type args struct {
 		amount float64

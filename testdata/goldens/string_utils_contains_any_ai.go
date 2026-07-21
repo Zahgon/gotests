@@ -1,5 +1,7 @@
 package testdata
+
 import "testing"
+
 func TestContainsAny(t *testing.T) {
 	type args struct {
 		s          string

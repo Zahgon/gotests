@@ -1,8 +1,10 @@
 package testdata
+
 import (
 	"reflect"
 	"testing"
 )
+
 func TestParseKeyValue(t *testing.T) {
 	type args struct {
 		input string

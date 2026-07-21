@@ -1,5 +1,7 @@
 package testdata
+
 import "testing"
+
 func TestCalculator_Multiply(t *testing.T) {
 	type args struct {
 		n int

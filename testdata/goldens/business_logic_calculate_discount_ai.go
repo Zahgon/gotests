@@ -1,5 +1,7 @@
 package testdata
+
 import "testing"
+
 func TestCalculateDiscount(t *testing.T) {
 	type args struct {
 		price      float64

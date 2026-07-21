@@ -1,5 +1,7 @@
 package testdata
+
 import "testing"
+
 func TestHashPassword(t *testing.T) {
 	type args struct {
 		password string

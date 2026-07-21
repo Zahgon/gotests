@@ -1,5 +1,7 @@
 package testdata
+
 import "testing"
+
 func TestFactorial(t *testing.T) {
 	type args struct {
 		n int

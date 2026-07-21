@@ -1,5 +1,7 @@
 package testdata
+
 import "testing"
+
 func TestClamp(t *testing.T) {
 	type args struct {
 		value int
